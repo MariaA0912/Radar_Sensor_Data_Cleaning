@@ -4,7 +4,7 @@ patterns_to_remove = [r"\[header:", r"seq:0", r"stamp:", r"secs:0", r"nsecs:0", 
                         , r"object_classified:False", r"pose:", r"orientation:", r"x:0.0\n", r"y:0.0\n", r"z:0.0\n", r"w:1.0", r"covariance:"
                         , r"\[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0\]"
                         , r"polygon:", r"points:\[\]", r"shape:", r"type:0", r"dimensions:\[\]", r"\[\]", r"classification:0", r"classification_certainty:10"
-                        , r"classification_age:0", r"header:", r"twist:", r"angular:", r"accel:", r",", r"linear:", r"\]", r"y:-0.0\n", r"x:-0.0\n", r"x:0\n", r"y:0\n"]  # Modify as needed
+                        , r"classification_age:0", r"header:", r"twist:", r"angular:", r"accel:", r",", r"linear:", r"\]", r"y:-0.0\n", r"x:-0.0\n", r"x:0\n", r"y:0\n", r"x:\-?0\.00",r"x:\-?0\.0", r"y:\-?0\.00", r"x:0.00", r"y:0.00"]  # Modify as needed
 
  # Read the text file
 with open("no_spaces_output.txt", "r", encoding="utf-8") as file:

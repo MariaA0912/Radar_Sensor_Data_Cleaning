@@ -1,8 +1,8 @@
 # importing pandas library 
 import pandas as pd 
 
-input_text_file = "test_text_deleter.txt"
-output_csv_file = "clean_data.csv"
+input_text_file = "flagged.txt"
+output_csv_file = "cData.csv"
   
 # reading the given csv file  
 # and creating dataframe 
